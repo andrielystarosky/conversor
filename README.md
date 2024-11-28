@@ -50,3 +50,35 @@ O aplicativo faz uso da API Exchangeratesapi para obter as taxas de câmbio. Voc
 
 Registre-se no Exchangeratesapi para obter a chave de acesso.
 Substitua a chave de acesso no código, onde necessário.
+
+--- 
+
+# Requisitos solicitados
+
+1. O aplicativo contém duas telas:
+
+- Tela de Conversão.
+- Tela de Consulta de Taxas de Câmbio.
+
+2. Uso de textos, botões, listas, recursos de ao menos 4 widgets diferentes
+
+- Uso de textos: o aplicativo exibe vários textos, como títulos, instruções e resultados, em diversas partes da interface (telas de conversão e consulta de taxas).
+    - Exemplo: O título "Conversão de Moedas" na tela inicial, e a exibição do valor convertido.
+- Uso de botões: o aplicativo utiliza botões para ações como:
+    - Realizar a conversão de moedas.
+    - Navegar entre as telas de conversão e consulta de taxas.
+    - O botão que direciona para a consulta de taxas de câmbio.
+- Uso de listas: a tela de consulta de taxas utiliza uma lista para exibir as taxas de câmbio para diferentes moedas.
+    - Exemplo: O uso do widget ListView para listar as taxas de câmbio.
+- Recursos de ao menos 4 widgets diferentes:
+    - Text: Para exibir títulos e mensagens.
+    - ElevatedButton: Para ações de clique (realizar conversão, navegar).
+    - TextField: Para permitir que o usuário insira o valor a ser convertido e selecione as moedas.
+    - ListView: Para exibir a lista de taxas de câmbio.
+    - CircularProgressIndicator: Para mostrar o carregamento de dados da API.
+    - DropdownButton: Para a seleção de moedas.
+
+
+3. Usar algum dos Recursos (LocalStorage, Câmera, API, Sensores)
+
+- O projeto usa uma API externa para realizar a conversão de moedas e consultar as taxas de câmbio.
