@@ -14,13 +14,13 @@ Este é um aplicativo simples de conversão de moedas, desenvolvido utilizando o
 Para começar a usar o projeto, faça o clone deste repositório:
 
 ```bash
-git clone https://github.com/seu-usuario/conversor_moedas_flutter.git
+git clone https://github.com/andrielystarosky/conversor.git
 ```
 ### 2. Instalando as dependências
 Navegue até o diretório do projeto e execute o comando abaixo para instalar as dependências:
 
 ```bash
-cd conversor_moedas_flutter
+cd conversor
 flutter pub get
 ```
 ### 3. Executando o aplicativo
@@ -82,3 +82,6 @@ Substitua a chave de acesso no código, onde necessário.
 3. Usar algum dos Recursos (LocalStorage, Câmera, API, Sensores)
 
 - O projeto usa uma API externa para realizar a conversão de moedas e consultar as taxas de câmbio.
+
+--- 
+Andriely Starosky
